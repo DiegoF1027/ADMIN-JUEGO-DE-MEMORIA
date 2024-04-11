@@ -1,0 +1,106 @@
+body {
+  background-color: white;
+}
+
+.title {
+  color: #007bff;
+  font-size: 24px;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 8px;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.modal-title {
+  color: #007bff;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: #007bff;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: #007bff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+.tableApp table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableApp th {
+  background-color: #343a40;
+  color: #15e542;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tableApp tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.tableApp tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tableApp td {
+  background-color: #f2f2f2;
+  color: #495057;
+  padding: 8px;
+}
+
+.tableApp {
+  border: 1px solid #dee2e6;
+}
+
+.modal-footer .btn-close {
+  color: red;
+}
+
+.modal-footer #btnSubmit {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="number"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
